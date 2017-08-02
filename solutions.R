@@ -107,3 +107,26 @@ top_9 <- arrange(total_investment_by_country[which(total_investment_by_country$c
 
 mapping_data_raw <- read.csv("mapping.csv",check.names=FALSE,stringsAsFactors = F)
 mapping_data_long <- gather(mapping_data_raw,key = "main_sector",value = "main_sector_val",2:10)
+mapping_data <- filter(mapping_data_long,main_sector_val == 1)
+mapping_data <- mapping_data[-3]
+
+
+
+# Create primary_sector by taking the first category from multiple category rows
+master_frame <- mutate(master_frame,primary_sector = str_split(category_list,"[|]",simplify =  T)[,1])
+
+
+
+
+# Mapping data has mistakes, hence cleaning
+# find categories in mapping_data that do not match in master_frame and the ones that match
+mapping_data_error <- anti_join(mapping_data,distinct(master_frame["primary_sector"]) , by = c("category_list" = "primary_sector"))
+mapping_data_no_error <- inner_join(mapping_data,distinct(master_frame["primary_sector"]) , by = c("category_list" = "primary_sector"))
+
+
+
+# correct the data
+mapping_data_error[,"category_list"] <- str_extract(distinct(master_frame["primary_sector"]),regex(str_replace_all(mapping_data_error[,"category_list"],"0","na"),ignore_case = T))
+
+
+# rbind both df, even though it is wrong casing, it can be corrected in next step with dplyr join
