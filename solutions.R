@@ -90,9 +90,3 @@ group_by_country <- group_by(filter_by_inv_type,country_code)
 
 # Find sum of investment based on country code
 total_investment_by_country <- summarise(group_by_country,Total_Investment = sum(raised_amount_usd,na.rm = T))
-
-
-# For the chosen investment type, make a data frame named top9 with the top nine countries (based on the total investment amount each country has received)
-# Also cleanup Blank Country Code
-top_9 <- arrange(total_investment_by_country[which(total_investment_by_country$country_code != ""),],desc(Total_Investment))[1:9,]
-
