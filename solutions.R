@@ -27,3 +27,27 @@ count_companies_in_rounds2 <- n_distinct(as.data.frame(rounds2$company_permalink
 
 # How many unique companies are present in the companies file?
 # converting permalink to lower case for uniformity
+companies$permalink <- str_to_lower(companies$permalink,locale = "en")
+count_companies_in_companies <- n_distinct(as.data.frame(companies$permalink))
+
+
+
+
+
+# Any companies in the rounds2 file which are not present in companies
+# anti_join will find those rows in distinct rounds2$company_permalink which are not present in distinct companies$permalink
+# if there are any such companies, they will be saved in the variable missing_from_companies
+missing_from_companies <- anti_join(distinct(rounds2,company_permalink) , distinct(companies,permalink), by = c("company_permalink" = "permalink") )
+
+
+
+
+# Merge the two data frames so that all variables (columns) in the companies frame are added to the rounds2 data frame. Name the merged frame master_frame.
+master_frame <- left_join(rounds2,companies,by = c("company_permalink" = "permalink"))
+
+
+
+
+#============ GOAL 1 : Investment type analysis ===================
+
+
