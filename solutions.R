@@ -107,7 +107,3 @@ top_9 <- arrange(total_investment_by_country[which(total_investment_by_country$c
 
 mapping_data_raw <- read.csv("mapping.csv",check.names=FALSE,stringsAsFactors = F)
 mapping_data_long <- gather(mapping_data_raw,key = "main_sector",value = "main_sector_val",2:10)
-mapping_data <- filter(mapping_data_long,main_sector_val == 1)
-mapping_data <- mapping_data[-3]
-
-
