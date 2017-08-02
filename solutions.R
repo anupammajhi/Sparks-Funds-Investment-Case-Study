@@ -51,3 +51,24 @@ master_frame <- left_join(rounds2,companies,by = c("company_permalink" = "permal
 #============ GOAL 1 : Investment type analysis ===================
 
 
+# Checkpoint 2: Funding Type Analysis
+
+# Calculate the average investment amount for each of the four funding types (venture, angel, seed, and private equity)
+
+funding_rounds <- filter(master_frame,funding_round_type %in% c("seed","venture","angel","private_equity"))
+funding_rounds_spread <- spread(funding_rounds,funding_round_type,raised_amount_usd)
+summarise(funding_rounds_spread,avg_seed = mean(seed,na.rm = T),avg_venture = mean(venture,na.rm = T),avg_angel = mean(angel,na.rm = T),avg_private_equity = mean(private_equity,na.rm = T))
+
+
+
+# Alternate solutions
+# Average Seed Fund
+mean(master_frame$raised_amount_usd[which(master_frame$funding_round_type == "seed")],na.rm = T)
+# Average Venture Fund
+mean(master_frame$raised_amount_usd[which(master_frame$funding_round_type == "venture")],na.rm = T)
+# Average Angel Fund
+mean(master_frame$raised_amount_usd[which(master_frame$funding_round_type == "angel")],na.rm = T)
+# Average Private Equity Fund
+mean(master_frame$raised_amount_usd[which(master_frame$funding_round_type == "private_equity")],na.rm = T)
+
+
