@@ -130,3 +130,26 @@ mapping_data_error[,"category_list"] <- str_extract(distinct(master_frame["prima
 
 
 # rbind both df, even though it is wrong casing, it can be corrected in next step with dplyr join
+mapping_data <- rbind(mapping_data_no_error,mapping_data_error)
+
+
+# left join master_frame with case insensitive category list comparision from mapping_data
+master_frame <- left_join(master_frame,mapping_data,by = c("primary_sector" = "category_list"))
+
+
+
+
+
+# Checkpoint 5: Sector Analysis 2
+
+# Create three separate data frames D1, D2 and D3 for each of the three countries containing the observations of funding type FT falling within the 5-15 million USD range.
+D1 <- master_frame[which(master_frame$country_code == "USA" & master_frame$funding_round_type == 'venture' & master_frame$raised_amount_usd >= 5000000 & master_frame$raised_amount_usd <= 15000000) ,]
+D2 <- master_frame[which(master_frame$country_code == "GBR" & master_frame$funding_round_type == 'venture' & master_frame$raised_amount_usd >= 5000000 & master_frame$raised_amount_usd <= 15000000) ,]
+D3 <- master_frame[which(master_frame$country_code == "IND" & master_frame$funding_round_type == 'venture' & master_frame$raised_amount_usd >= 5000000 & master_frame$raised_amount_usd <= 15000000) ,]
+
+
+# The three data frames should contain:
+  # - All the columns of the master_frame along with the primary sector and the main sector
+  # - The total number (or count) of investments for each main sector in a separate column
+  # - The total amount invested in each main sector in a separate column
+
