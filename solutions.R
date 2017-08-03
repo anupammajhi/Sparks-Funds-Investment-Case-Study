@@ -175,9 +175,3 @@ sum(D3$raised_amount_usd)
 Top_Sector_D1 <- arrange(distinct(D1[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[1,1]
 Top_Sector_D2 <- arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[1,1]
 Top_Sector_D3 <- arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[1,1]
-
-
-# Second Sector name (by no. of investments)
-Sec_Sector_D1 <- arrange(distinct(D1[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[2,1]
-Sec_Sector_D2 <- arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[2,1]
-Sec_Sector_D3 <- arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[2,1]
