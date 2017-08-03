@@ -153,3 +153,31 @@ D3 <- master_frame[which(master_frame$country_code == "IND" & master_frame$fundi
   # - The total number (or count) of investments for each main sector in a separate column
   # - The total amount invested in each main sector in a separate column
 
+
+D1 <- mutate(group_by(D1,main_sector),total_investment_by_number = length(raised_amount_usd),total_investment_by_amount = sum(raised_amount_usd))
+D2 <- mutate(group_by(D2,main_sector),total_investment_by_number = length(raised_amount_usd),total_investment_by_amount = sum(raised_amount_usd))
+D3 <- mutate(group_by(D3,main_sector),total_investment_by_number = length(raised_amount_usd),total_investment_by_amount = sum(raised_amount_usd))
+
+
+# Total number of Investments (count)
+nrow(D1)
+nrow(D2)
+nrow(D3)
+
+
+# Total amount of investment (USD)
+sum(D1$raised_amount_usd)
+sum(D2$raised_amount_usd)
+sum(D3$raised_amount_usd)
+
+
+# Top Sector name (by no. of investments)
+Top_Sector_D1 <- arrange(distinct(D1[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[1,1]
+Top_Sector_D2 <- arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[1,1]
+Top_Sector_D3 <- arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[1,1]
+
+
+# Second Sector name (by no. of investments)
+Sec_Sector_D1 <- arrange(distinct(D1[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[2,1]
+Sec_Sector_D2 <- arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[2,1]
+Sec_Sector_D3 <- arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[2,1]
