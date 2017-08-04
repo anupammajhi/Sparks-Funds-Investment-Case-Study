@@ -189,8 +189,3 @@ Thr_Sector_D2 <- arrange(distinct(D2[c("main_sector","total_investment_by_number
 Thr_Sector_D3 <- arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[3,1]
 
 
-# Number of investments in top sector (3)
-arrange(distinct(D1[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[1,2]
-arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[1,2]
-arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[1,2]
-
