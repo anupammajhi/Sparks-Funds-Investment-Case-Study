@@ -213,9 +213,3 @@ arrange(filter(D2,main_sector == Top_Sector_D2),desc(raised_amount_usd))[1,"name
 arrange(filter(D3,main_sector == Top_Sector_D3),desc(raised_amount_usd))[1,"name"]
 
 
-# For point 4 (second best sector, count-wise), which company received the highest investment?
-arrange(filter(D1,main_sector == Sec_Sector_D1),desc(raised_amount_usd))[1,"name"]
-arrange(filter(D2,main_sector == Sec_Sector_D2),desc(raised_amount_usd))[1,"name"]
-arrange(filter(D3,main_sector == Sec_Sector_D3),desc(raised_amount_usd))[1,"name"]
-
-
