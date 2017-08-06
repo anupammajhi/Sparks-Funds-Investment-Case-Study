@@ -207,9 +207,3 @@ arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_i
 arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[3,2]
 
 
-# For point 3 (top sector, count-wise), which company received the highest investment?
-arrange(filter(D1,main_sector == Top_Sector_D1),desc(raised_amount_usd))[1,"name"]
-arrange(filter(D2,main_sector == Top_Sector_D2),desc(raised_amount_usd))[1,"name"]
-arrange(filter(D3,main_sector == Top_Sector_D3),desc(raised_amount_usd))[1,"name"]
-
-
