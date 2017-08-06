@@ -201,9 +201,3 @@ arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_i
 arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[2,2]
 
 
-# Number of investments in third sector (5)
-arrange(distinct(D1[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[3,2]
-arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[3,2]
-arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[3,2]
-
-
