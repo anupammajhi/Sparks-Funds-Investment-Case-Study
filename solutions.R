@@ -195,3 +195,29 @@ arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_i
 arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[1,2]
 
 
+# Number of investments in second sector (4)
+arrange(distinct(D1[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[2,2]
+arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[2,2]
+arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[2,2]
+
+
+# Number of investments in third sector (5)
+arrange(distinct(D1[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[3,2]
+arrange(distinct(D2[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[3,2]
+arrange(distinct(D3[c("main_sector","total_investment_by_number")]),desc(total_investment_by_number))[3,2]
+
+
+# For point 3 (top sector, count-wise), which company received the highest investment?
+arrange(filter(D1,main_sector == Top_Sector_D1),desc(raised_amount_usd))[1,"name"]
+arrange(filter(D2,main_sector == Top_Sector_D2),desc(raised_amount_usd))[1,"name"]
+arrange(filter(D3,main_sector == Top_Sector_D3),desc(raised_amount_usd))[1,"name"]
+
+
+# For point 4 (second best sector, count-wise), which company received the highest investment?
+arrange(filter(D1,main_sector == Sec_Sector_D1),desc(raised_amount_usd))[1,"name"]
+arrange(filter(D2,main_sector == Sec_Sector_D2),desc(raised_amount_usd))[1,"name"]
+arrange(filter(D3,main_sector == Sec_Sector_D3),desc(raised_amount_usd))[1,"name"]
+
+
+#Writing master_frame to csv file for presentation
+write.csv(master_frame,"solutions.csv")
