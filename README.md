@@ -20,3 +20,22 @@ These conditions will give you sufficient information for your initial analysis.
 
  
 
+**1. What is the strategy?**
+
+Spark Funds wants to invest where most **other investors are investing**. This pattern is often observed among early stage startup investors.
+
+ 
+
+**2. Where did we get the data from?** 
+
+
+
+We have taken real investment data from **crunchbase.com**, so the insights you get may be incredibly useful. For this group project, we have divided the data into the following files:
+
+ 
+
+You have to use three main data tables for the entire analysis (**available for download on the next page**):
+
+ 
+
+**3. What is Spark Funds’ business objective?**
