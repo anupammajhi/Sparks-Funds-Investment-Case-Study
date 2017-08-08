@@ -73,3 +73,4 @@ Also, you have to prepare a short presentation document to present the results o
 **companies**: A table with basic data of companies
 
 | Attribute     | Description                                    |
+| ------------- | ---------------------------------------------- |
