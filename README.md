@@ -74,3 +74,4 @@ Also, you have to prepare a short presentation document to present the results o
 
 | Attribute     | Description                                    |
 | ------------- | ---------------------------------------------- |
+| Permalink     | Unique ID of company                           |
