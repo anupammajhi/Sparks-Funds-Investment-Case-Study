@@ -18,3 +18,4 @@ Spark Funds has two minor constraints for investments:
 
 These conditions will give you sufficient information for your initial analysis. Before getting to specific questions, let’s understand the problem and the data first.
 
+ 
