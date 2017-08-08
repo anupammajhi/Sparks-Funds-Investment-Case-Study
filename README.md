@@ -75,3 +75,20 @@ Also, you have to prepare a short presentation document to present the results o
 | Attribute     | Description                                    |
 | ------------- | ---------------------------------------------- |
 | Permalink     | Unique ID of company                           |
+| name          | Company name                                   |
+| homepage_url  | Website URL                                    |
+| category_list | Category/categories to which a company belongs |
+| status        | Operational status                             |
+| country_code  | Country Code                                   |
+| state_code    | State                                          |
+
+ 
+
+**2. Funding round details:** 
+
+**rounds2**: The most important parameters are explained below:
+
+| Attributes              | Description                                           |
+| ----------------------- | ----------------------------------------------------- |
+| company_permalink       | Unique ID of company                                  |
+| funding_round_permalink | Unique ID of funding round                            |
