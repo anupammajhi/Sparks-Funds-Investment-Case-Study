@@ -142,3 +142,4 @@ After this, you will need to work only with the **master frame****.**
 ## Checkpoint 2: Funding Type Analysis
 
 
+
