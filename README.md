@@ -128,3 +128,17 @@ Also, you have to prepare a short presentation document to present the results o
 
 | How many **unique companies** are present in **rounds2**?    |      |
 | ------------------------------------------------------------ | ---- |
+| How many **unique companies** are present in **companies**?  |      |
+| In the **companies** data frame, which column can be used as the unique key for each company? Write the **name of the column**. |      |
+| Are there any companies in the rounds2 file which are not present in companies? Answer yes or no: **Y/N** |      |
+| Merge the two data frames so that all variables (columns) in the **companies** frame are added to the **rounds2** data frame. Name the merged frame **master_frame***.* How many observations are present in master_frame? |      |
+
+ 
+
+After this, you will need to work only with the **master frame****.**
+
+ 
+
+## Checkpoint 2: Funding Type Analysis
+
+
