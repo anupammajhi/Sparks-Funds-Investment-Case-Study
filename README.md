@@ -93,3 +93,21 @@ Also, you have to prepare a short presentation document to present the results o
 | company_permalink       | Unique ID of company                                  |
 | funding_round_permalink | Unique ID of funding round                            |
 | funding_round_type      | Type of funding – venture, angel, private equity etc. |
+| funding_round_code      | Round of venture funding (round A, B etc.)            |
+| funded_at               | Date of funding                                       |
+| raised_amount_usd       | Money raised in funding (USD)                         |
+
+
+
+**3.** **Sector Classification**:
+
+**mapping.csv**: This file maps the numerous **category names** in the companies table (such 3D printing, aerospace, agriculture, etc.) to eight broad **sector names.** The purpose is to simplify the analysis into eight sector buckets, rather than trying to analyse hundreds of them.
+
+
+
+**4. Excel File (mandatory submission):** Download the Excel spreadsheet from below. It contains all the tables you need to fill in.
+
+
+
+**5. Presentation template (mandatory submission):** Download the sample PPT from below. The structure is a suggestion; make sure not to exceed 10 slides. Once your presentation is ready, convert the document in PDF format for submission.
+
