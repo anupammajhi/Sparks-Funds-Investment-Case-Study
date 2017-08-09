@@ -186,3 +186,4 @@ Great! You have crossed two checkpoints. There are four checkpoints left now.
 
 
 
+# Checkpoints - Part 2
