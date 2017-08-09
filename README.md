@@ -164,3 +164,4 @@ Considering the constraints of Spark Funds, you have to decide one funding type 
 
 1. Calculate the average investment amount for each of the four funding types (venture, angel, seed, and private equity) and report the answers in **Table 2.1**
 2. Based on the average investment amount calculated above, which investment type do you think is the most suitable for Spark Funds?
+
