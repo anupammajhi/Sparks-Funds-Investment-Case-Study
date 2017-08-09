@@ -111,3 +111,20 @@ Also, you have to prepare a short presentation document to present the results o
 
 **5. Presentation template (mandatory submission):** Download the sample PPT from below. The structure is a suggestion; make sure not to exceed 10 slides. Once your presentation is ready, convert the document in PDF format for submission.
 
+
+
+# Checkpoints - Part 1
+
+## Checkpoint 1: Data Cleaning 1
+
+1. Load the companies and rounds data (provided on the previous page) into two data frames and name them **companies** and **rounds2** respectively.
+2. Table 1.1: The table below is just for reference — you need to fill out the spreadsheet which is attached in the download section. This holds true for all the tables.
+
+ 
+
+**Results Expected: Table 1.1**
+
+ **Table 1.1: Understand the Data Set** 
+
+| How many **unique companies** are present in **rounds2**?    |      |
+| ------------------------------------------------------------ | ---- |
