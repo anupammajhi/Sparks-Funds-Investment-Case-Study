@@ -143,3 +143,23 @@ After this, you will need to work only with the **master frame****.**
 
 
 
+This is the first of the three goals of data analysis – investment type analysis.
+
+ 
+
+The funding types such as seed, venture, angel, etc. depend on the type of the company (startup, corporate, etc.), its stage (early stage startup, funded startup, etc.), the amount of funding (a few million USD to a billion USD), and so on. For example, seed, angel and venture are three common stages of startup funding.
+
+- Seed/angel funding refer to early stage startups whereas venture funding occurs after seed or angel stage/s and involves a relatively higher amount of investment.
+- Private equity type investments are associated with much larger companies and involve much higher investments than venture type. Startups which have grown in scale may also receive private equity funding. This means that if a company has reached the venture stage, it would have already passed through the angel or seed stage/s.
+
+ 
+
+**Spark Funds wants to choose one of these four investment types for each potential investment they will make.**
+
+ 
+
+Considering the constraints of Spark Funds, you have to decide one funding type which is most suitable for them.
+
+
+
+1. Calculate the average investment amount for each of the four funding types (venture, angel, seed, and private equity) and report the answers in **Table 2.1**
