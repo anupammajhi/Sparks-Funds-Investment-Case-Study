@@ -187,3 +187,20 @@ Great! You have crossed two checkpoints. There are four checkpoints left now.
 
 
 # Checkpoints - Part 2
+
+## Checkpoint 3: Country Analysis
+
+
+
+This is the second goal of analysis — **country analysis**.
+
+ 
+
+Now that you know the type of investment suited for Spark Funds, let's narrow down the countries.
+
+ 
+
+Spark Funds wants to invest in countries with the highest amount of funding for the chosen investment type. This is a part of its broader strategy to invest where **most investments are occurring**.
+
+ 
+
