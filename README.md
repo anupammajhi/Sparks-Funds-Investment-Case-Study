@@ -204,3 +204,4 @@ Spark Funds wants to invest in countries with the highest amount of funding for 
 
  
 
+1. Spark Funds wants to see the top nine countries which have received the highest total funding (across ALL sectors for the chosen investment type)
