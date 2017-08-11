@@ -245,3 +245,17 @@ When we say sector analysis, we refer to one of the **eight main sectors** (name
  
 
 Also, for some companies, the category list is a list of multiple sub-sectors separated by a pipe (vertical bar |). For example, one of the companies’ category_list is Application Platforms|Real Time|Social Network Media.
+
+ 
+
+You discuss with the CEO and come up with the **business rule** that the first string before the vertical bar will be considered the **primary sector**. In the example above, ‘Application Platforms’ will be considered the primary sector.
+
+1. **Extract** the primary sector of each category list from the **category_list column**
+2. Use the **mapping file** 'mapping.csv' to map each primary sector to one of the eight main sectors (Note that ‘Others’ is also considered one of the main sectors)
+
+**Expected Results:** Code for a merged data frame with each primary sector mapped to its main sector (the primary sector should be present in a separate column).
+
+ 
+
+## Checkpoint 5: Sector Analysis 2
+
