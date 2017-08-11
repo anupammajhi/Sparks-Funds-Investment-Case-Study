@@ -259,3 +259,22 @@ You discuss with the CEO and come up with the **business rule** that the first s
 
 ## Checkpoint 5: Sector Analysis 2
 
+
+
+Now you have a data frame with each company’s main sector (main_sector) mapped to it. When we say sector analysis, we refer to one of the eight main sectors.
+
+ 
+
+Also, you know the top three English speaking countries and the most suitable funding type for Spark Funds. Let’s call the three countries 'Country 1', 'Country 2' and 'Country 3' and the funding type 'FT'.
+
+ 
+
+Also, the range of funding preferred by Spark Funds is **5 to 15 million USD**.
+
+ 
+
+Now, the aim is to find out the most heavily invested main sectors in each of the three countries (for funding type FT and investments range of 5-15 M USD).
+
+
+
+1. Create three separate data frames D1, D2 and D3 for each of the three countries containing the observations of funding type FT falling within the 5-15 million USD range. The three data frames should contain:
