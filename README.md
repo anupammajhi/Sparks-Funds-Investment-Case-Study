@@ -279,3 +279,22 @@ Now, the aim is to find out the most heavily invested main sectors in each of th
 
 1. Create three separate data frames D1, D2 and D3 for each of the three countries containing the observations of funding type FT falling within the 5-15 million USD range. The three data frames should contain:
 
+- All the columns of the master_frame along with the primary sector and the main sector
+- The total number (or count) of investments for each main sector in a separate column
+- The total amount invested in each main sector in a separate column
+
+Using the three data frames, you can calculate the total number and amount of investments in each main sector.
+
+ 
+
+**Result Expected** 
+
+1. Three data frames **D1, D2** and **D3** 
+2. Table 5.1: Based on the analysis of the sectors, which main sectors and countries would you recommend Spark Funds to invest in? Present your conclusions in the presentation. The conclusions are subjective (i.e. there may be no ‘one right answer’), but it should be based on the basic strategy — invest in sectors where most investments are occurring. 
+
+ 
+
+**Note: In the following table, all the observations refer to investments of the type FT within 5-15 M USD range.** 
+
+ 
+
