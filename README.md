@@ -205,3 +205,22 @@ Spark Funds wants to invest in countries with the highest amount of funding for 
  
 
 1. Spark Funds wants to see the top nine countries which have received the highest total funding (across ALL sectors for the chosen investment type)
+2. For the chosen investment type, make a data frame named **top9** with the top nine countries (based on the total investment amount each country has received)
+
+ 
+
+**Identify the top three English-speaking countries in the data frame top9.**
+
+ 
+
+**Results Expected:** All codes for data frame top9. Fill out Table 3.1.
+
+ 
+
+Table 3.1: Analysing the Top 3 English-Speaking Countries
+
+| 1. Top English-speaking country    |      |
+| ---------------------------------- | ---- |
+| 2. Second English-speaking country |      |
+| 3. Third English-speaking country  |      |
+
