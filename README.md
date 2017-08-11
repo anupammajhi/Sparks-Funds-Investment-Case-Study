@@ -225,3 +225,22 @@ Table 3.1: Analysing the Top 3 English-Speaking Countries
 | 3. Third English-speaking country  |      |
 
  
+
+
+
+Now you also know the three most investment-friendly countries and the most suited funding type for Spark Funds. Let us now focus on finding the best sectors in these countries.
+
+ 
+
+## Checkpoint 4: Sector Analysis 1
+
+This is the third goal of analysis **— sector analysis.**
+
+ 
+
+
+
+When we say sector analysis, we refer to one of the **eight main sectors** (named **main_sector**) listed in the mapping file (note that ‘Other’ is one of the eight main sectors). This is to simplify the analysis by grouping the numerous category lists (named ‘category_list’) in the mapping file. For example, in the mapping file, category_lists such as ‘3D’, ‘3D Printing’, ‘3D Technology’, etc. are mapped to the main sector ‘Manufacturing’.
+
+ 
+
