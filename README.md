@@ -278,3 +278,4 @@ Now, the aim is to find out the most heavily invested main sectors in each of th
 
 
 1. Create three separate data frames D1, D2 and D3 for each of the three countries containing the observations of funding type FT falling within the 5-15 million USD range. The three data frames should contain:
+
