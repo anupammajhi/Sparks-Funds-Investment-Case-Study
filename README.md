@@ -244,3 +244,4 @@ When we say sector analysis, we refer to one of the **eight main sectors** (name
 
  
 
+Also, for some companies, the category list is a list of multiple sub-sectors separated by a pipe (vertical bar |). For example, one of the companies’ category_list is Application Platforms|Real Time|Social Network Media.
