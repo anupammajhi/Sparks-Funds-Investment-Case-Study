@@ -298,3 +298,18 @@ Using the three data frames, you can calculate the total number and amount of in
 
  
 
+Table 5.1 : Sector-wise Investment Analysis
+
+|                                                              | **Country 1** | **Country 2** | **Country 3** |
+| ------------------------------------------------------------ | ------------- | ------------- | ------------- |
+| 1. Total number of investments (count)                       |               |               |               |
+| 2. Total amount of investment (USD)                          |               |               |               |
+| 3. Top sector (based on count of investments)                |               |               |               |
+| 4. Second-best sector (based on count of investments)        |               |               |               |
+| 5. Third-best sector (based on count of investments)         |               |               |               |
+| 6. Number of investments in the top sector (refer to point 3) |               |               |               |
+| 7. Number of investments in the second-best sector (refer to point 4) |               |               |               |
+| 8. Number of investments in the third-best sector (refer to point 5) |               |               |               |
+| 9. For the top sector count-wise (point 3), which company received the highest investment? |               |               |               |
+| 10. For the second-best sector count-wise (point 4), which company received the highest investment? |               |               |               |
+
