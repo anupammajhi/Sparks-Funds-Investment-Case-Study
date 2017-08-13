@@ -330,6 +330,3 @@ As a final step, you have to present your findings to the CEO of Spark Funds. Sp
 3. A plot showing the number of investments in the **top 3 sectors** of the **top 3 countries** on one chart (for the chosen investment type FT). 
 
 
-
- 
-
