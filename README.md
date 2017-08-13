@@ -320,3 +320,20 @@ Table 5.1 : Sector-wise Investment Analysis
 
 
 **Note**: You have to create all the plots in Tableau.
+
+ 
+
+As a final step, you have to present your findings to the CEO of Spark Funds. Specifically, she wants to see the following plots:
+
+1. A plot showing the fraction of total investments (globally) in venture, seed, and private equity, and the average amount of investment in each funding type. This chart should make it clear that a certain funding type (FT) is best suited for Spark Funds.
+2. A plot showing the top 9 countries against the total amount of investments of funding type FT. This should make the top 3 countries (Country 1, Country 2, and Country 3) very clear.
+3. A plot showing the number of investments in the **top 3 sectors** of the **top 3 countries** on one chart (for the chosen investment type FT). 
+
+
+
+ 
+
+This plot should clearly display the top 3 sectors each in Country 1, Country 2, and Country 3.
+
+ 
+
